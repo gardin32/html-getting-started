@@ -1,6 +1,7 @@
 /* Add screen styles below */
 body {
     background: #3B322C;
+    margin-top: 100px;
 }
 
 .card {
@@ -8,12 +9,22 @@ body {
     color: #3B322C;
     margin: 0 auto;
     width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
 
-#company {
-    
+.card div {
+    padding: 20px;
 }
 
 h1 {
     background: #72BDA3;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
 }
